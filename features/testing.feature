@@ -6,7 +6,7 @@ Feature: Test that WP-CLI loads.
     When I run `wp eval 'echo "Hello world.";'`
     Then STDOUT should contain:
       """
-      Hello world!
+      Hello world.
       """
 
   Scenario: WP Cron is disabled by default
