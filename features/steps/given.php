@@ -139,7 +139,7 @@ $steps->Given(
 		$plugins = implode( ' ', array_map( 'trim', explode( PHP_EOL, (string) $stream ) ) );
 		$plugins = $world->replace_variables( $plugins );
 
-		$world->proc( "wp plugin install $plugins --activate" )->run_check();
+		$world->proc( "wp plugin instal $plugins --activate" )->run_check();
 	}
 );
 
