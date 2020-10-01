@@ -6,5 +6,5 @@ Feature: new.
     When I run `wp cli info`
     Then STDOUT should be:
       """
-      WP-CLI version:	2.4.1
+      WP-CLI version:	2.4.0
       """
