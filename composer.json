@@ -19,6 +19,7 @@
         "wp-cli/config-command": "^1 || ^2",
         "wp-cli/core-command": "^1 || ^2",
         "wp-cli/eval-command": "^1 || ^2",
+        "wp-cli/extension-command": "^1 || ^2",
         "wp-cli/wp-cli": "2.4.0",
         "wp-coding-standards/wpcs": "^2.1"
     },
