@@ -3,8 +3,8 @@ Feature: new.
   Scenario: WP-CLI loads for your tests
     Given a WP install
 
-    When I run `wp help`
+    When I run `wp theme list`
     Then STDOUT should be:
       """
-      WP-CLI version:	2.4.0
+      twentyseventeen
       """
