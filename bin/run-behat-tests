@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 # Run the Behat tests only if a features folder exists
 if [ ! -d "features" ]; then
   exit 0;
