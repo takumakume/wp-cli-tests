@@ -4,7 +4,7 @@ Feature: new.
     Given a WP install
 
     When I run `wp theme list`
-    Then STDOUT should be:
+    Then STDOUT should contain:
       """
       twentyseventeen
       """
