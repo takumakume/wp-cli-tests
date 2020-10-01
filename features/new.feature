@@ -8,3 +8,9 @@ Feature: new.
       """
       twentyseventeen
       """
+
+    When I run `wp plugin list`
+    Then STDOUT should contain:
+      """
+      hello
+      """
