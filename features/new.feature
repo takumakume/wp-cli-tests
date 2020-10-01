@@ -3,8 +3,8 @@ Feature: new.
   Scenario: WP-CLI loads for your tests
     Given a WP install
 
-    When I run `wp eval 'echo "Hello world.";'`
-    Then STDOUT should contain:
+    When I run `wp theme list --json'`
+    Then STDOUT should be:
       """
-      Hello world!!
+      twentyseventeen
       """
